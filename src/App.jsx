@@ -1,9 +1,9 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-function App() {
+const App=()=> {
  
 
   return (
@@ -28,7 +28,7 @@ function App() {
       >
         Save
       </button>
-      <button type="button" class="btn btn-warning" >
+      <button type="submit" class="btn btn-warning" >
         Get Tasks
       </button>
     </div>
